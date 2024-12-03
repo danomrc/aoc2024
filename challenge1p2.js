@@ -27,9 +27,9 @@ secondNumbers.forEach(element => {
 let sum = 0;
 
 for (let i = 0; i < firstNumbers.length; i++) {
-    const occurence = occurenceMap.get(firstNumbers[i]);
+    const frequency = occurenceMap.get(firstNumbers[i]);
     if (occurence) {
-       sum += firstNumbers[i] * occurence;
+       sum += firstNumbers[i] * frequency;
     }
 }
 
